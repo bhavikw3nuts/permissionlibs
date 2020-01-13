@@ -1,0 +1,2 @@
+include ':app', ':managerpermission'
+rootProject.name='MyPermission'
