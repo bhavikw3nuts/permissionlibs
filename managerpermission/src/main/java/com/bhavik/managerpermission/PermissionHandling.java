@@ -12,7 +12,7 @@ import java.util.List;
 
 public class PermissionHandling extends AppCompatActivity {
     private static final int MULTIPLE_PERMISSIONS = 100;
-    private boolean checkPermissions(String []permissions) {
+    public boolean checkPermissions(String []permissions) {
         int result;
         List<String> listPermissionsNeeded = new ArrayList<>();
         for (String p : permissions) {
